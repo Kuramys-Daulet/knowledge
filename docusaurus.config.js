@@ -4,12 +4,35 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'cresswell', // omitted => default instance
+        path: 'Cresswell',
+        routeBasePath: 'Cresswell',
+        sidebarPath: './sidebars.js',
+        // ... other options
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'RME', // omitted => default instance
+        path: 'RME',
+        routeBasePath: 'RME',
+        sidebarPath: './sidebars.js',
+        // ... other options
+      },
+    ],
+  ],
+
   title: 'SPSS БІЛІМ БЕРУДЕ',
   tagline: 'Педагогтар мен зерттеушілерге арналған тәжірибелік нұсқаулық',
   favicon: 'img/favicon.ico',
@@ -37,8 +60,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'kz',
+    locales: ['kz'],
   },
 
   presets: [
@@ -96,7 +119,21 @@ const config = {
             position: 'left',
             label: 'Мазмұны',
           },
-          {to: '/blog', label: 'Блог', position: 'left'},
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Cresswell',
+            docsPluginId: 'cresswell',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Research Methods in Education',
+            docsPluginId: 'RME',
+          },
+          { to: '/blog', label: 'Блог', position: 'left' },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -157,3 +194,4 @@ const config = {
 };
 
 export default config;
+
