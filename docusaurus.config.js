@@ -209,12 +209,7 @@ const config = {
         // ... Your options.
         // `hashed` is recommended as long-term-cache of index file is possible.
         hashed: true,
-        indexDocs: true,
-        indexBlog: false,
-        indexPages: true,
 
-      // ВАЖНО: включаем поддержку дополнительных языков
-        language: ["en", "kk"],
 
         // For Docs using Chinese, it is recomended to set:
         // language: ["en", "zh"],
