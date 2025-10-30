@@ -34,7 +34,7 @@ const config = {
   ],
 
   title: 'Knowledge',
-  tagline: 'Педагогтар мен зерттеушілерге арналған тәжірибелік нұсқаулық',
+  tagline: 'My personal base',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -107,7 +107,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'SPSS БІЛІМ БЕРУДЕ',
+        title: "Daulet's kwonledge base",
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
