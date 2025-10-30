@@ -33,7 +33,7 @@ const config = {
     ],
   ],
 
-  title: 'SPSS БІЛІМ БЕРУДЕ',
+  title: 'Knowledge',
   tagline: 'Педагогтар мен зерттеушілерге арналған тәжірибелік нұсқаулық',
   favicon: 'img/favicon.ico',
 
@@ -46,12 +46,12 @@ const config = {
   url: 'https://kuramys-daulet.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/SPSS/',
+  baseUrl: '/knowledge/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'kuramys-daulet', // Usually your GitHub org/user name.
-  projectName: 'SPSS', // Usually your repo name.
+  projectName: 'knowledge', // Usually your repo name.
   deploymentBranch: "gh-pages",
 
   onBrokenLinks: 'throw',
