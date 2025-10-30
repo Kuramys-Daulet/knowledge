@@ -60,8 +60,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-  defaultLocale: 'en',
-  locales: ['en', 'kk'], // ‘kk’ — код казахского
+  defaultLocale: 'kk',
+  locales: ['kk', 'en'], // ‘kk’ — код казахского
   localeConfigs: {
     kk: { label: 'Қазақша' },
     en: { label: 'English' },
@@ -121,6 +121,10 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Мазмұны',
+          },
+          {
+        type: 'localeDropdown',
+        position: 'right',
           },
           {
             type: 'docSidebar',
@@ -205,6 +209,12 @@ const config = {
         // ... Your options.
         // `hashed` is recommended as long-term-cache of index file is possible.
         hashed: true,
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: true,
+
+      // ВАЖНО: включаем поддержку дополнительных языков
+        language: ["en", "kk"],
 
         // For Docs using Chinese, it is recomended to set:
         // language: ["en", "zh"],

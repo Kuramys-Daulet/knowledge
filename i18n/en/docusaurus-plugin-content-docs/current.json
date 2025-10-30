@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.I бөлім": {
+    "message": "I бөлім",
+    "description": "The label for category 'I бөлім' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.I бөлім.link.generated-index.description": {
+    "message": "Педагогтар мен зерттеушілерге арналған тәжірибелік нұсқаулық",
+    "description": "The generated-index page description for category 'I бөлім' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.II бөлім": {
+    "message": "II бөлім",
+    "description": "The label for category 'II бөлім' in sidebar 'tutorialSidebar'"
+  }
+}

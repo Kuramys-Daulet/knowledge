@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Білім беруді зерттеу контексті": {
+    "message": "Білім беруді зерттеу контексті",
+    "description": "The label for category 'Білім беруді зерттеу контексті' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Білім беруді зерттеу контексті.link.generated-index.description": {
+    "message": "Педагогтар мен зерттеушілерге арналған тәжірибелік нұсқаулық",
+    "description": "The generated-index page description for category 'Білім беруді зерттеу контексті' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Сұрау сипаты: аймақты анықтау": {
+    "message": "Сұрау сипаты: аймақты анықтау",
+    "description": "The label for category 'Сұрау сипаты: аймақты анықтау' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Сұрау сипаты: аймақты анықтау.link.generated-index.description": {
+    "message": "Педагогтар мен зерттеушілерге арналған тәжірибелік нұсқаулық",
+    "description": "The generated-index page description for category 'Сұрау сипаты: аймақты анықтау' in sidebar 'tutorialSidebar'"
+  }
+}

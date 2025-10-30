@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.I БӨЛІМ БАСТАПҚЫ ПІКІРЛЕР": {
+    "message": "I БӨЛІМ БАСТАПҚЫ ПІКІРЛЕР",
+    "description": "The label for category 'I БӨЛІМ БАСТАПҚЫ ПІКІРЛЕР' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.I БӨЛІМ БАСТАПҚЫ ПІКІРЛЕР.link.generated-index.description": {
+    "message": "Педагогтар мен зерттеушілерге арналған тәжірибелік нұсқаулық",
+    "description": "The generated-index page description for category 'I БӨЛІМ БАСТАПҚЫ ПІКІРЛЕР' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.II БӨЛІМ ЗЕРТТЕУ ЖОБАСЫН ҚҰРУ": {
+    "message": "II БӨЛІМ ЗЕРТТЕУ ЖОБАСЫН ҚҰРУ",
+    "description": "The label for category 'II БӨЛІМ ЗЕРТТЕУ ЖОБАСЫН ҚҰРУ' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.II БӨЛІМ ЗЕРТТЕУ ЖОБАСЫН ҚҰРУ.link.generated-index.description": {
+    "message": "Педагогтар мен зерттеушілерге арналған тәжірибелік нұсқаулық",
+    "description": "The generated-index page description for category 'II БӨЛІМ ЗЕРТТЕУ ЖОБАСЫН ҚҰРУ' in sidebar 'tutorialSidebar'"
+  }
+}
